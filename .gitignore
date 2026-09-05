@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Environment variables
+.env
+
+# API credentials
+credentials/
+*.json
+
+# Generated files
+uploads/
+outputs/
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
