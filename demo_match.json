@@ -1,0 +1,10 @@
+{
+  "match_status": "VERIFIED_MATCH",
+  "matched_url": "https://instagram.com/johndoe/avatar",
+  "title": "John Doe • Instagram",
+  "source": "Instagram",
+  "evidence_score": 88.5,
+  "source_image": "cropped_face.jpg",
+  "image_hash_sha256": "9cb452b8f5aa9e4d3b7c1ef20a86f29374d5e8c1ab9f0d2e6c7831a4f50e9b12",
+  "timestamp": 1741192800
+}
