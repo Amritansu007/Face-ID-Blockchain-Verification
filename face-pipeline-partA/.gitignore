@@ -1,0 +1,23 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# scan artifacts - regenerated each run, and they contain face images
+out/
+out_*/
+
+# deepface model weights cache (large, auto-downloaded)
+.deepface/
+
+# keep test photos out of the repo unless subjects consented to publication
+testdata/
+*.jpg
+*.jpeg
+*.png
+!docs/*.png
+template_key.json
+
+# leftover from an older demo.py bug
+_out_backup/
+webcam_test_frame.jpg

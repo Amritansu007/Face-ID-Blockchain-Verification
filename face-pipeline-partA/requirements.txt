@@ -1,0 +1,12 @@
+# Part A dependencies (DeepFace stack).
+#
+#   pip install deepface tf-keras opencv-python
+#
+# tf-keras is REQUIRED: TensorFlow 2.21 ships Keras 3, and retina-face
+# still needs the Keras 2 API. Without it DeepFace raises
+# "You have tensorflow 2.21.0 and this requires tf-keras package".
+#
+deepface==0.0.100
+tf-keras>=2.21
+opencv-python>=4.8
+numpy>=1.26
