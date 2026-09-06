@@ -25,9 +25,9 @@ no unverified match is ever written to the blockchain.
 
 | Part | Owner | What it does | Details |
 |------|-------|---------------|---------|
-| **Part A** — Face Detection & Encoding | Krishiv Rathi | Detects a face in the input photo, crops it, computes a face encoding | [`partA/README_partA.md`](partA/README_partA.md) |
-| **Part B** — Reverse Image Search & Evidence Verification | Somanshu Vyas | Independently verifies candidate matches using multi-signal computer vision scoring, returns the best real match or a safe "no reliable match" result | [`partB/README_partB.md`](partB/README_partB.md) |
-| **Part C** — Blockchain Record & Verification | Amritansu Singh | Writes a tamper-evident hash of the verified match to a smart contract on Sepolia testnet, then re-verifies it on-chain | [`partC/README_partC.md`](partC/README_partC.md) |
+| **Part A** — Face Detection & Encoding | Krishiv Rathi | Detects a face in the input photo, crops it, computes a face encoding | [`Integrated/README_partA.md`](Integrated/README_partA.md) |
+| **Part B** — Reverse Image Search & Evidence Verification | Somanshu Vyas | Independently verifies candidate matches using multi-signal computer vision scoring, returns the best real match or a safe "no reliable match" result | [`Integrated/README_partB.md`](Integrated/README_partB.md) |
+| **Part C** — Blockchain Record & Verification | Amritansu Singh | Writes a tamper-evident hash of the verified match to a smart contract on Sepolia testnet, then re-verifies it on-chain | [`Integrated/README_partC.md`](Integrated/README_partC.md) |
 
 ## Running the Full Pipeline
 
